@@ -37,13 +37,14 @@ This project includes a basic frontend authentication system.
 - 🎨 CSS (Custom UI)
 - 🔗 DummyJSON API
 
----
+## 📂 Project Structure
 
+```
 src/
 │
 ├── components/        # Reusable UI components (Navbar, Footer, etc.)
 │
-├── pages/             # All main pages
+├── pages/             
 │   ├── Auth/          # Login & Signup pages
 │   ├── Shop/          # Shop listing page
 │   ├── cart/          # Cart page
@@ -56,9 +57,7 @@ src/
 │
 ├── App.jsx            # Main app component (Routing setup)
 └── index.jsx          # Entry point
-
-
----
+```
 
 # ⚙️ Installation & Setup
 
