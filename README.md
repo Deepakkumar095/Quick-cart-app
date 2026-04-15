@@ -39,22 +39,23 @@ This project includes a basic frontend authentication system.
 
 ---
 
-## 📂 Project Structure
 src/
 │
-├── components/
-├── pages/
-| |──Auth/
-| |──Shop
-│ ├── cart/
-│ ├── shop/
-│ ├── checkout/
-│ └── ProductDetails/
+├── components/        # Reusable UI components (Navbar, Footer, etc.)
 │
-├── redux/
-├── services/
-├── App.jsx
-└── index.jsx
+├── pages/             # All main pages
+│   ├── Auth/          # Login & Signup pages
+│   ├── Shop/          # Shop listing page
+│   ├── cart/          # Cart page
+│   ├── checkout/      # Checkout page
+│   └── ProductDetails/# Single product detail page
+│
+├── redux/             # Redux store & slices
+│
+├── services/          # API calls (Axios / Fetch)
+│
+├── App.jsx            # Main app component (Routing setup)
+└── index.jsx          # Entry point
 
 
 ---
@@ -63,7 +64,7 @@ src/
 
 ## 1️⃣ Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/quick-cart-react.git
-cd quick-cart-react/Frontend
-npm install
-npm start
+- git clone https://github.com/YOUR_USERNAME/quick-cart-react.git
+- cd quick-cart-react/Frontend
+- npm install
+- npm start
