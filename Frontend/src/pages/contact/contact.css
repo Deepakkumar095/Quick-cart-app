@@ -1,0 +1,83 @@
+/* Page */
+.contactPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Header */
+.contactHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subTitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.contactHeader h1 {
+  font-size: 50px;
+  margin: 30px 0;
+}
+
+.desc {
+  color: #777;
+}
+
+/*Form card */
+.contactContainer {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs */
+.contactContainer input,
+.contactContainer textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Focus */
+.contactContainer input:focus,
+.contactContainer textarea:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Textarea */
+.contactContainer textarea {
+  height: 140px;
+  resize: none;
+}
+
+/* Button */
+.contactContainer button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactContainer button:hover {
+  background: #333;
+}

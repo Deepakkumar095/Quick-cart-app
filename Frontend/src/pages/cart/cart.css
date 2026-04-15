@@ -1,0 +1,159 @@
+body {
+  background: #f5f7fb;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Cart Container */
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+}
+
+/* Heading */
+.cart h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/*Cart Item Card */
+.cartItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.cartItem,
+.checkout {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+.cartItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+/* Image */
+.cartItem img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
+/* Description */
+.cartItem .description {
+  flex: 1;
+}
+
+.cartItem .description p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.cartItem .description p:last-child {
+  font-size: 16px;
+  color: #4b5563;
+  margin-top: 5px;
+}
+
+/* Count Handler */
+.countHandler {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.countHandler button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.countHandler button:hover {
+  background: #4f46e5;
+}
+
+.countHandler input {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+
+/* Remove Button */
+.removeBtn {
+  margin-top: 15px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.removeBtn:hover {
+  background: #dc2626;
+}
+
+/*Checkout Section */
+.checkout {
+  padding: 25px;
+  text-align: center;
+}
+
+.checkout h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+/*Buttons */
+.checkout button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  background: #111827;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.checkout button:hover {
+  background: #6366f1;
+}
+
+/*Responsive */
+@media (max-width: 768px) {
+  .cartItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cartItem img {
+    width: 120px;
+    height: 120px;
+  }
+}

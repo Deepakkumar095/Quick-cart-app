@@ -1,0 +1,42 @@
+/* Main footer */
+.footer {
+  background: #111;
+  color: white;
+  padding: 40px 20px 10px;
+}
+
+/* Container */
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Sections */
+.footerSection {
+  flex: 1;
+  margin: 10px;
+}
+
+.footerSection h2,
+.footerSection h3 {
+  margin-bottom: 10px;
+}
+
+.footerSection p {
+  font-size: 14px;
+  margin: 5px 0;
+  cursor: pointer;
+  color: white;
+}
+
+/* Bottom */
+.footerBottom {
+  text-align: center;
+  margin-top: 20px;
+
+  font-size: 14px;
+  color: #aaa;
+}
