@@ -1,4 +1,4 @@
-# 🛒 Quick Cart
+# Quick Cart
 
 Quick Cart is a modern e-commerce shopping cart application built using React and Redux.  
 It allows users to browse products, filter them, and manage cart items efficiently.
